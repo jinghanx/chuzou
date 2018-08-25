@@ -28,6 +28,8 @@
 	<string>YES</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>YES</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>I need to play music from library</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

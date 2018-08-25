@@ -16,6 +16,29 @@
 		0C99CDE72131263000968336 /* chuzouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C99CDE62131263000968336 /* chuzouTests.m */; };
 		0C99CDF22131263000968336 /* chuzouUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C99CDF12131263000968336 /* chuzouUITests.m */; };
 		0CB8B76A213126DB006E12B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB8B769213126DB006E12B8 /* CoreLocation.framework */; };
+		0CE5A8292131CDAB00E75CCE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE5A8282131CDAB00E75CCE /* AudioToolbox.framework */; };
+		0CE5A8532131CF0100E75CCE /* DOUAudioAnalyzer+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A82B2131CEFC00E75CCE /* DOUAudioAnalyzer+Default.m */; };
+		0CE5A8542131CF0100E75CCE /* DOUAudioFileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A82C2131CEFD00E75CCE /* DOUAudioFileProvider.m */; };
+		0CE5A8552131CF0100E75CCE /* DOUSimpleHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8322131CEFD00E75CCE /* DOUSimpleHTTPRequest.m */; };
+		0CE5A8562131CF0100E75CCE /* DOUAudioDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8352131CEFD00E75CCE /* DOUAudioDecoder.m */; };
+		0CE5A8572131CF0100E75CCE /* DOUAudioFilePreprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8362131CEFD00E75CCE /* DOUAudioFilePreprocessor.m */; };
+		0CE5A8582131CF0100E75CCE /* DOUAudioFrequencyAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8372131CEFE00E75CCE /* DOUAudioFrequencyAnalyzer.m */; };
+		0CE5A8592131CF0100E75CCE /* DOUAudioEventLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8382131CEFE00E75CCE /* DOUAudioEventLoop.m */; };
+		0CE5A85A2131CF0100E75CCE /* DOUAudioPlaybackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8392131CEFE00E75CCE /* DOUAudioPlaybackItem.m */; };
+		0CE5A85B2131CF0100E75CCE /* DOUAudioStreamer+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A83C2131CEFE00E75CCE /* DOUAudioStreamer+Options.m */; };
+		0CE5A85C2131CF0100E75CCE /* DOUAudioAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A83D2131CEFE00E75CCE /* DOUAudioAnalyzer.m */; };
+		0CE5A85D2131CF0100E75CCE /* DOUAudioVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8432131CEFF00E75CCE /* DOUAudioVisualizer.m */; };
+		0CE5A85E2131CF0100E75CCE /* DOUEAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8442131CEFF00E75CCE /* DOUEAGLView.m */; };
+		0CE5A85F2131CF0100E75CCE /* DOUAudioSpatialAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8472131CF0000E75CCE /* DOUAudioSpatialAnalyzer.m */; };
+		0CE5A8602131CF0100E75CCE /* NSData+DOUMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8482131CF0000E75CCE /* NSData+DOUMappedFile.m */; };
+		0CE5A8612131CF0100E75CCE /* DOUAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8492131CF0000E75CCE /* DOUAudioStreamer.m */; };
+		0CE5A8622131CF0100E75CCE /* DOUMPMediaLibraryAssetLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A84B2131CF0000E75CCE /* DOUMPMediaLibraryAssetLoader.m */; };
+		0CE5A8632131CF0100E75CCE /* DOUAudioRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8512131CF0100E75CCE /* DOUAudioRenderer.m */; };
+		0CE5A8642131CF0100E75CCE /* DOUAudioLPCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8522131CF0100E75CCE /* DOUAudioLPCM.m */; };
+		0CE5A86C2131DB7100E75CCE /* Track+Provider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8672131DB7000E75CCE /* Track+Provider.m */; };
+		0CE5A86D2131DB7100E75CCE /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A8692131DB7100E75CCE /* PlayerViewController.m */; };
+		0CE5A86E2131DB7100E75CCE /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5A86B2131DB7100E75CCE /* Track.m */; };
+		0CE5A8702131DEA400E75CCE /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0CE5A86F2131DEA400E75CCE /* test.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +77,54 @@
 		0C99CDF32131263000968336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CB8B769213126DB006E12B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0CB8B76C21313FA3006E12B8 /* route.gpx */ = {isa = PBXFileReference; lastKnownFileType = text; name = route.gpx; path = ../../Downloads/route.gpx; sourceTree = "<group>"; };
+		0CE5A8282131CDAB00E75CCE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0CE5A82B2131CEFC00E75CCE /* DOUAudioAnalyzer+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOUAudioAnalyzer+Default.m"; sourceTree = "<group>"; };
+		0CE5A82C2131CEFD00E75CCE /* DOUAudioFileProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFileProvider.m; sourceTree = "<group>"; };
+		0CE5A82D2131CEFD00E75CCE /* DOUAudioLPCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioLPCM.h; sourceTree = "<group>"; };
+		0CE5A82E2131CEFD00E75CCE /* DOUEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUEAGLView.h; sourceTree = "<group>"; };
+		0CE5A82F2131CEFD00E75CCE /* DOUSimpleHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUSimpleHTTPRequest.h; sourceTree = "<group>"; };
+		0CE5A8302131CEFD00E75CCE /* DOUAudioFrequencyAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFrequencyAnalyzer.h; sourceTree = "<group>"; };
+		0CE5A8312131CEFD00E75CCE /* DOUMPMediaLibraryAssetLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUMPMediaLibraryAssetLoader.h; sourceTree = "<group>"; };
+		0CE5A8322131CEFD00E75CCE /* DOUSimpleHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUSimpleHTTPRequest.m; sourceTree = "<group>"; };
+		0CE5A8332131CEFD00E75CCE /* DOUAudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioStreamer.h; sourceTree = "<group>"; };
+		0CE5A8342131CEFD00E75CCE /* DOUAudioAnalyzer+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOUAudioAnalyzer+Default.h"; sourceTree = "<group>"; };
+		0CE5A8352131CEFD00E75CCE /* DOUAudioDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioDecoder.m; sourceTree = "<group>"; };
+		0CE5A8362131CEFD00E75CCE /* DOUAudioFilePreprocessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFilePreprocessor.m; sourceTree = "<group>"; };
+		0CE5A8372131CEFE00E75CCE /* DOUAudioFrequencyAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioFrequencyAnalyzer.m; sourceTree = "<group>"; };
+		0CE5A8382131CEFE00E75CCE /* DOUAudioEventLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioEventLoop.m; sourceTree = "<group>"; };
+		0CE5A8392131CEFE00E75CCE /* DOUAudioPlaybackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioPlaybackItem.m; sourceTree = "<group>"; };
+		0CE5A83A2131CEFE00E75CCE /* DOUAudioSpatialAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioSpatialAnalyzer.h; sourceTree = "<group>"; };
+		0CE5A83B2131CEFE00E75CCE /* DOUAudioStreamer+Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOUAudioStreamer+Options.h"; sourceTree = "<group>"; };
+		0CE5A83C2131CEFE00E75CCE /* DOUAudioStreamer+Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOUAudioStreamer+Options.m"; sourceTree = "<group>"; };
+		0CE5A83D2131CEFE00E75CCE /* DOUAudioAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioAnalyzer.m; sourceTree = "<group>"; };
+		0CE5A83E2131CEFE00E75CCE /* DOUAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFile.h; sourceTree = "<group>"; };
+		0CE5A83F2131CEFE00E75CCE /* DOUAudioPlaybackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioPlaybackItem.h; sourceTree = "<group>"; };
+		0CE5A8402131CEFF00E75CCE /* DOUAudioDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioDecoder.h; sourceTree = "<group>"; };
+		0CE5A8412131CEFF00E75CCE /* DOUAudioRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioRenderer.h; sourceTree = "<group>"; };
+		0CE5A8422131CEFF00E75CCE /* DOUAudioVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioVisualizer.h; sourceTree = "<group>"; };
+		0CE5A8432131CEFF00E75CCE /* DOUAudioVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioVisualizer.m; sourceTree = "<group>"; };
+		0CE5A8442131CEFF00E75CCE /* DOUEAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUEAGLView.m; sourceTree = "<group>"; };
+		0CE5A8452131CEFF00E75CCE /* DOUAudioFileProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFileProvider.h; sourceTree = "<group>"; };
+		0CE5A8462131CEFF00E75CCE /* NSData+DOUMappedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DOUMappedFile.h"; sourceTree = "<group>"; };
+		0CE5A8472131CF0000E75CCE /* DOUAudioSpatialAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioSpatialAnalyzer.m; sourceTree = "<group>"; };
+		0CE5A8482131CF0000E75CCE /* NSData+DOUMappedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DOUMappedFile.m"; sourceTree = "<group>"; };
+		0CE5A8492131CF0000E75CCE /* DOUAudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioStreamer.m; sourceTree = "<group>"; };
+		0CE5A84A2131CF0000E75CCE /* DOUAudioStreamer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioStreamer_Private.h; sourceTree = "<group>"; };
+		0CE5A84B2131CF0000E75CCE /* DOUMPMediaLibraryAssetLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUMPMediaLibraryAssetLoader.m; sourceTree = "<group>"; };
+		0CE5A84C2131CF0000E75CCE /* DOUAudioEventLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioEventLoop.h; sourceTree = "<group>"; };
+		0CE5A84D2131CF0100E75CCE /* DOUAudioAnalyzer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioAnalyzer_Private.h; sourceTree = "<group>"; };
+		0CE5A84E2131CF0100E75CCE /* DOUAudioAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioAnalyzer.h; sourceTree = "<group>"; };
+		0CE5A84F2131CF0100E75CCE /* DOUAudioFilePreprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioFilePreprocessor.h; sourceTree = "<group>"; };
+		0CE5A8502131CF0100E75CCE /* DOUAudioBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOUAudioBase.h; sourceTree = "<group>"; };
+		0CE5A8512131CF0100E75CCE /* DOUAudioRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioRenderer.m; sourceTree = "<group>"; };
+		0CE5A8522131CF0100E75CCE /* DOUAudioLPCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOUAudioLPCM.m; sourceTree = "<group>"; };
+		0CE5A8662131DB7000E75CCE /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		0CE5A8672131DB7000E75CCE /* Track+Provider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Track+Provider.m"; sourceTree = "<group>"; };
+		0CE5A8682131DB7000E75CCE /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		0CE5A8692131DB7100E75CCE /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		0CE5A86A2131DB7100E75CCE /* Track+Provider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Track+Provider.h"; sourceTree = "<group>"; };
+		0CE5A86B2131DB7100E75CCE /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		0CE5A86F2131DEA400E75CCE /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE5A8292131CDAB00E75CCE /* AudioToolbox.framework in Frameworks */,
 				0CB8B76A213126DB006E12B8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +157,7 @@
 		0C99CDC12131262E00968336 = {
 			isa = PBXGroup;
 			children = (
+				0CE5A8712131E17900E75CCE /* audios */,
 				0CB8B76C21313FA3006E12B8 /* route.gpx */,
 				0C99CDCC2131262E00968336 /* chuzou */,
 				0C99CDE52131263000968336 /* chuzouTests */,
@@ -107,6 +180,8 @@
 		0C99CDCC2131262E00968336 /* chuzou */ = {
 			isa = PBXGroup;
 			children = (
+				0CE5A8652131DB3900E75CCE /* DouAudioStreamerDemo */,
+				0CE5A82A2131CED800E75CCE /* DOUAudioStreamer */,
 				0C99CDCD2131262E00968336 /* AppDelegate.h */,
 				0C99CDCE2131262F00968336 /* AppDelegate.m */,
 				0C99CDD02131262F00968336 /* ViewController.h */,
@@ -141,9 +216,78 @@
 		0CB8B768213126DB006E12B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CE5A8282131CDAB00E75CCE /* AudioToolbox.framework */,
 				0CB8B769213126DB006E12B8 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CE5A82A2131CED800E75CCE /* DOUAudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5A84D2131CF0100E75CCE /* DOUAudioAnalyzer_Private.h */,
+				0CE5A84E2131CF0100E75CCE /* DOUAudioAnalyzer.h */,
+				0CE5A83D2131CEFE00E75CCE /* DOUAudioAnalyzer.m */,
+				0CE5A8342131CEFD00E75CCE /* DOUAudioAnalyzer+Default.h */,
+				0CE5A82B2131CEFC00E75CCE /* DOUAudioAnalyzer+Default.m */,
+				0CE5A8502131CF0100E75CCE /* DOUAudioBase.h */,
+				0CE5A8402131CEFF00E75CCE /* DOUAudioDecoder.h */,
+				0CE5A8352131CEFD00E75CCE /* DOUAudioDecoder.m */,
+				0CE5A84C2131CF0000E75CCE /* DOUAudioEventLoop.h */,
+				0CE5A8382131CEFE00E75CCE /* DOUAudioEventLoop.m */,
+				0CE5A83E2131CEFE00E75CCE /* DOUAudioFile.h */,
+				0CE5A84F2131CF0100E75CCE /* DOUAudioFilePreprocessor.h */,
+				0CE5A8362131CEFD00E75CCE /* DOUAudioFilePreprocessor.m */,
+				0CE5A8452131CEFF00E75CCE /* DOUAudioFileProvider.h */,
+				0CE5A82C2131CEFD00E75CCE /* DOUAudioFileProvider.m */,
+				0CE5A8302131CEFD00E75CCE /* DOUAudioFrequencyAnalyzer.h */,
+				0CE5A8372131CEFE00E75CCE /* DOUAudioFrequencyAnalyzer.m */,
+				0CE5A82D2131CEFD00E75CCE /* DOUAudioLPCM.h */,
+				0CE5A8522131CF0100E75CCE /* DOUAudioLPCM.m */,
+				0CE5A83F2131CEFE00E75CCE /* DOUAudioPlaybackItem.h */,
+				0CE5A8392131CEFE00E75CCE /* DOUAudioPlaybackItem.m */,
+				0CE5A8412131CEFF00E75CCE /* DOUAudioRenderer.h */,
+				0CE5A8512131CF0100E75CCE /* DOUAudioRenderer.m */,
+				0CE5A83A2131CEFE00E75CCE /* DOUAudioSpatialAnalyzer.h */,
+				0CE5A8472131CF0000E75CCE /* DOUAudioSpatialAnalyzer.m */,
+				0CE5A84A2131CF0000E75CCE /* DOUAudioStreamer_Private.h */,
+				0CE5A8332131CEFD00E75CCE /* DOUAudioStreamer.h */,
+				0CE5A8492131CF0000E75CCE /* DOUAudioStreamer.m */,
+				0CE5A83B2131CEFE00E75CCE /* DOUAudioStreamer+Options.h */,
+				0CE5A83C2131CEFE00E75CCE /* DOUAudioStreamer+Options.m */,
+				0CE5A8422131CEFF00E75CCE /* DOUAudioVisualizer.h */,
+				0CE5A8432131CEFF00E75CCE /* DOUAudioVisualizer.m */,
+				0CE5A82E2131CEFD00E75CCE /* DOUEAGLView.h */,
+				0CE5A8442131CEFF00E75CCE /* DOUEAGLView.m */,
+				0CE5A8312131CEFD00E75CCE /* DOUMPMediaLibraryAssetLoader.h */,
+				0CE5A84B2131CF0000E75CCE /* DOUMPMediaLibraryAssetLoader.m */,
+				0CE5A82F2131CEFD00E75CCE /* DOUSimpleHTTPRequest.h */,
+				0CE5A8322131CEFD00E75CCE /* DOUSimpleHTTPRequest.m */,
+				0CE5A8462131CEFF00E75CCE /* NSData+DOUMappedFile.h */,
+				0CE5A8482131CF0000E75CCE /* NSData+DOUMappedFile.m */,
+			);
+			path = DOUAudioStreamer;
+			sourceTree = "<group>";
+		};
+		0CE5A8652131DB3900E75CCE /* DouAudioStreamerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5A8662131DB7000E75CCE /* PlayerViewController.h */,
+				0CE5A8692131DB7100E75CCE /* PlayerViewController.m */,
+				0CE5A8682131DB7000E75CCE /* Track.h */,
+				0CE5A86B2131DB7100E75CCE /* Track.m */,
+				0CE5A86A2131DB7100E75CCE /* Track+Provider.h */,
+				0CE5A8672131DB7000E75CCE /* Track+Provider.m */,
+			);
+			path = DouAudioStreamerDemo;
+			sourceTree = "<group>";
+		};
+		0CE5A8712131E17900E75CCE /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5A86F2131DEA400E75CCE /* test.mp3 */,
+			);
+			path = audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +395,7 @@
 			files = (
 				0C99CDDA2131263000968336 /* LaunchScreen.storyboard in Resources */,
 				0C99CDD72131263000968336 /* Assets.xcassets in Resources */,
+				0CE5A8702131DEA400E75CCE /* test.mp3 in Resources */,
 				0C99CDD52131262F00968336 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,8 +421,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE5A86C2131DB7100E75CCE /* Track+Provider.m in Sources */,
+				0CE5A8582131CF0100E75CCE /* DOUAudioFrequencyAnalyzer.m in Sources */,
+				0CE5A85D2131CF0100E75CCE /* DOUAudioVisualizer.m in Sources */,
+				0CE5A85F2131CF0100E75CCE /* DOUAudioSpatialAnalyzer.m in Sources */,
+				0CE5A8552131CF0100E75CCE /* DOUSimpleHTTPRequest.m in Sources */,
+				0CE5A8592131CF0100E75CCE /* DOUAudioEventLoop.m in Sources */,
+				0CE5A8642131CF0100E75CCE /* DOUAudioLPCM.m in Sources */,
+				0CE5A85A2131CF0100E75CCE /* DOUAudioPlaybackItem.m in Sources */,
 				0C99CDD22131262F00968336 /* ViewController.m in Sources */,
+				0CE5A85B2131CF0100E75CCE /* DOUAudioStreamer+Options.m in Sources */,
+				0CE5A85C2131CF0100E75CCE /* DOUAudioAnalyzer.m in Sources */,
+				0CE5A86D2131DB7100E75CCE /* PlayerViewController.m in Sources */,
+				0CE5A8622131CF0100E75CCE /* DOUMPMediaLibraryAssetLoader.m in Sources */,
+				0CE5A8632131CF0100E75CCE /* DOUAudioRenderer.m in Sources */,
+				0CE5A8562131CF0100E75CCE /* DOUAudioDecoder.m in Sources */,
+				0CE5A86E2131DB7100E75CCE /* Track.m in Sources */,
+				0CE5A8612131CF0100E75CCE /* DOUAudioStreamer.m in Sources */,
+				0CE5A8532131CF0100E75CCE /* DOUAudioAnalyzer+Default.m in Sources */,
 				0C99CDDD2131263000968336 /* main.m in Sources */,
+				0CE5A8542131CF0100E75CCE /* DOUAudioFileProvider.m in Sources */,
+				0CE5A8602131CF0100E75CCE /* NSData+DOUMappedFile.m in Sources */,
+				0CE5A8572131CF0100E75CCE /* DOUAudioFilePreprocessor.m in Sources */,
+				0CE5A85E2131CF0100E75CCE /* DOUEAGLView.m in Sources */,
 				0C99CDCF2131262F00968336 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,11 +614,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P8579VQM2;
 				INFOPLIST_FILE = chuzou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_CFLAGS[arch=*]" = "-DTARGET_OS_IPHONE";
 				PRODUCT_BUNDLE_IDENTIFIER = chuzou.chuzou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,11 +632,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P8579VQM2;
 				INFOPLIST_FILE = chuzou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_CFLAGS[arch=*]" = "-DTARGET_OS_IPHONE";
 				PRODUCT_BUNDLE_IDENTIFIER = chuzou.chuzou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

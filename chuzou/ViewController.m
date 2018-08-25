@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+
+
 @interface ViewController ()
 
 @end
@@ -15,6 +19,7 @@
 @implementation ViewController
 
 CLLocationManager *locationManager;
+AVAudioPlayer *player;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -59,6 +64,7 @@ CLLocationManager *locationManager;
 -(void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{
     NSLog(@"Error: %@", error.description);
 }
+
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
     CLLocation *crnLoc = [locations lastObject];
@@ -68,13 +74,22 @@ CLLocationManager *locationManager;
     NSLog(@"%@", [NSString stringWithFormat:@"%.0f", crnLoc.speed]);
     [self printAddressFromLocation:crnLoc];
 }
+
 -(void)locationManager:(CLLocationManager *)manager didEnterRegion:(nonnull CLRegion *)region{
     NSLog(@"Enter %@", region.identifier);
+    
+    NSString *soundFilePath = [NSString stringWithFormat:@"%@/test.mp3",[[NSBundle mainBundle] resourcePath]];
+    NSURL *soundFileURL = [NSURL fileURLWithPath:soundFilePath];
+    player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL error:nil];
+    player.numberOfLoops = 1;
+    [player play];
 }
 
 -(void)locationManager:(CLLocationManager *)manager didExitRegion:(nonnull CLRegion *)region {
     NSLog(@"Exit %@", region.identifier);
 }
+
+# pragma IBAction
 - (IBAction)goButton:(id)sender {
     [locationManager startUpdatingLocation];  //requesting location updates
 }
