@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <CoreLocation/CLGeocoder.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<CLLocationManagerDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+- (IBAction)goButton:(id)sender;
 
 @end
 

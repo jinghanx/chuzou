@@ -15,6 +15,7 @@
 		0C99CDDD2131263000968336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C99CDDC2131263000968336 /* main.m */; };
 		0C99CDE72131263000968336 /* chuzouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C99CDE62131263000968336 /* chuzouTests.m */; };
 		0C99CDF22131263000968336 /* chuzouUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C99CDF12131263000968336 /* chuzouUITests.m */; };
+		0CB8B76A213126DB006E12B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB8B769213126DB006E12B8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0C99CDED2131263000968336 /* chuzouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chuzouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C99CDF12131263000968336 /* chuzouUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chuzouUITests.m; sourceTree = "<group>"; };
 		0C99CDF32131263000968336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CB8B769213126DB006E12B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0CB8B76C21313FA3006E12B8 /* route.gpx */ = {isa = PBXFileReference; lastKnownFileType = text; name = route.gpx; path = ../../Downloads/route.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB8B76A213126DB006E12B8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +85,12 @@
 		0C99CDC12131262E00968336 = {
 			isa = PBXGroup;
 			children = (
+				0CB8B76C21313FA3006E12B8 /* route.gpx */,
 				0C99CDCC2131262E00968336 /* chuzou */,
 				0C99CDE52131263000968336 /* chuzouTests */,
 				0C99CDF02131263000968336 /* chuzouUITests */,
 				0C99CDCB2131262E00968336 /* Products */,
+				0CB8B768213126DB006E12B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +136,14 @@
 				0C99CDF32131263000968336 /* Info.plist */,
 			);
 			path = chuzouUITests;
+			sourceTree = "<group>";
+		};
+		0CB8B768213126DB006E12B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CB8B769213126DB006E12B8 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
